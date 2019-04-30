@@ -1,0 +1,13 @@
+# \u5F00\u53D1\u73AF\u5883\u914D\u7F6E
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+logging:
+  level:
+    root: info
+    com.company.project.mapper: trace
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.company.project.mapper
