@@ -1,4 +1,4 @@
-package com.company.project.core;
+package com.company.project.result;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;

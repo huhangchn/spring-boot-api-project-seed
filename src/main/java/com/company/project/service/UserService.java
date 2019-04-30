@@ -1,5 +1,5 @@
 package com.company.project.service;
 
-public interface TestService {
+public interface UserService {
     String test();
 }

@@ -1,7 +1,5 @@
-package com.company.project.core;
+package com.company.project.result;
 
-
-import com.company.project.result.ResultEnum;
 
 /**
  * Created by 廖师兄

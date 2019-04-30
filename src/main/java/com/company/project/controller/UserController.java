@@ -1,19 +1,19 @@
 package com.company.project.controller;
 
-import com.company.project.core.Result;
-import com.company.project.core.ResultUtil;
-import com.company.project.service.TestService;
+import com.company.project.result.Result;
+import com.company.project.result.ResultUtil;
+import com.company.project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("test")
-public class TestController {
+@RequestMapping("user")
+public class UserController {
 
     @Autowired
-    TestService testService;
+    UserService testService;
 
     @GetMapping("hello")
     public Result hello(){
